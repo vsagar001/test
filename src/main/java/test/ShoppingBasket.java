@@ -4,5 +4,5 @@ import java.util.List;
 
 public interface ShoppingBasket {
 
-    public float checkout(List<String> productList);
+    float checkout(List<String> productList);
 }
